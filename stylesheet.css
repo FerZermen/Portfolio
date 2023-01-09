@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+
+/*structure*/
+body {width:97%;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3em;
+    color: white;
+}
+
+#cover{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background-image: url("images/nathalie.png");
+    color: white;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+main{
+float: right;
+width: 74%;
+background: rgb(255, 255, 255);
+padding: 20px;
+}
+
+nav{
+float: left;
+position: fixed;
+width:20%;
+height: 95%;
+background-color: white;
+}
+
+nav li{
+    display: inline-block;
+    font-weight: 500;
+    padding: 10px 65px;
+    letter-spacing: 1px;
+    font-size: .8em;
+  }
+
+/*  
+  
+*/
+
+nav ul a:link{
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  nav ul a:visited{
+    text-decoration: solid;
+    color: black;
+  }
+  nav ul a:hover{
+    text-decoration: solid;
+  }
+
+  .one a:link,visited{
+    
+    color: rgb(0, 0, 0);
+}
+.one a:hover{
+color: #ee6708;
+font-weight: 900;}
+
+.two a:link,visited{
+    color: rgb(0, 0, 0);
+}
+.two a:hover{
+color: #c71191;
+font-weight: 900;}
+
+.three a:link,visited{
+    color: rgb(0, 0, 0);
+}
+.three a:hover{
+color: #055f9c;
+font-weight: 900;}
+
+.one{
+    color: rgb(238, 103, 8);
+}  
+
+.two{
+    color:rgb(199, 17, 145);
+}
+
+.three{
+    color: rgb(5, 95, 156);
+}
+
+.project{
+    background-color: rgb(0, 0, 0);
+    margin: -20px 20px;
+    background-repeat: repeat;
+}
+h1{
+    line-height: 20px;}
+h2{
+    font-family: 'Exo';
+    font-size: 1em;
+    padding-top: 60px;
+    
+}
+h4{
+    font-family: 'Exo';
+    font-size: 1.5em;
+    padding-top: 30px;
+    padding-left: 70px;
+  }
+
+#portfolio{
+    font-size: 4em;
+    margin-top: 220px;
+    margin-left: -70px;
+}
+.cover{
+    padding-top: 10px;
+}
+  p{
+    width: 60%;
+    font-size: .8em;
+    padding-left: 70px;
+  }
+  #ThisWeb{
+    padding-bottom: 20px;
+  }
+  .details{
+    font-size: .7em;
+    font-weight: 500;
+  }
+  .name{
+    font-size: 1.2em;
+  }
+
+  .title{
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+
+  .italics{font-size: .9em;}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+/*pictures*/
+
+#logo{
+    padding-left: 36px;
+    padding-top: 30px;
+}
+
+.column{
+    width:50%;
+    box-sizing: border-box;
+}
+.video{margin-top: -75px;
+    padding-left: 123px;}
+
+.hero{margin-top: 30px;
+    display: block;
+        margin: 0 auto; /*centers image in div*/
+    margin-bottom: 50px;
+    }
+    
+.photo{margin-top: 30px;
+    margin: 0 auto; /*centers image in div*/
+margin-bottom: 50px;
+padding-left: 70px;}
+
+#photo1{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-left: 200px;
+}
+
+#photo2{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-left: 300px;
+}
+
+#photo3{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding-left: 320px;
+}
+
+.lesmis{
+  margin-top: 30px;
+margin-bottom: 50px;
+padding-left: 120px;
+}
+
+.vibes{margin-top: 30px;
+margin-bottom: 50px;
+padding-left: 90px;}
